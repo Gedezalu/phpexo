@@ -1,4 +1,4 @@
-<?php edz
+<?php
 
     $article1 = ["nom" => "Donjon et Dragons", "article" => "Du médiéval fantasy en pagaille"];
     $article2 = ["nom" => "l'appel de Chtullu", "article" => "Tiens un tentacule"];
