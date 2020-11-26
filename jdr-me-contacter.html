@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTVVMQ</title>
+    <link rel="stylesheet" href="jdr.css">
+    <link rel="icon" type="image/png" href="coucou2.png" />
+</head>
+<body>
+    <header class="bandeau flexb sm-col-12">
+        <div class="flexb poslog sm-col-12 md-col-3 lg-col-3 ">
+        <img class="logosite" src="coucou2.png" alt="logo du site bouclier et dé 20">
+        </div>
+    </header>
+<!-- Menu principal-->
+<div class="container">
+<input id="menu-checkbox" type="checkbox" class="menucheck sm-col-5">
+<label for="menu-checkbox" class="bouton-nav "><span class="barre"> </span> <span class="barre"> </span> <span class="barre"> </span></label>
+<nav id="menu-principal" class="menu-principal md2-col-12 " aria-label="Main menu">
+    <ul>
+        <li></li>
+        <li>Le Jeu de Rôle</li>
+        <li><a href="jdr-accueil.html"> Le JDR qu'est ce que c'est?</a></li>
+        <li><a href="jdr-projet1.html"> Projet 1</a></li>
+        <li><a href="jdr-projet2.html">Projet 2</a></li>
+        <li>Qui suis-je?</li>
+        <li><a href="jdr-mon-cv.html">Mon CV</a></li>
+        <li><a href="jdr-me-contacter.html">Me contacter</a></li>
+    </ul>
+</nav> 
+</div>
+
+<!--  FIN Menu principal-->
+
+
+    <section class="flexb sm-col-11 lg-col-8 coin ">
+        <h2> Me contacter</h2>
+        <div class="contact coin bkc4">
+            <h3> Pourquoi me contacter ?</h3>
+            <ul>
+                <li>Vous pouvez me contacter dans un premier temps si vous avez un <span class="gras">projet professionel</span> qui pourrait nécessitez ma collaboration. Je me ferai alors un plaisir d'étudier votre proposition, de voir si <span class="gras">mes compétences pourraient vous être utiles</span> et je vous répondrais afin de vous expliquer pourquoi votre projet m'interresse ou non.</li>
+                <li>Vous pouvez également me contacter pour me demander des <span class="gras">précisions</span> que ce soit sur mes aptitudes professionelles, sur le jeu de rôle ou sur tout ce qui vous passe par la tête. Si j'ai une réponse à vous apporter, je vous la donnerai.</li>
+                <li> Vous pouvez également m'envoyer un message pour me dire à quel point vous êtes <span class="gras">fan de mon travail</span>, que vous revez de passer du temps avec moi, de passer vos mains dans mes cheveux et deposer des baisers sur mes lèvres, mais je vous le déconseille : je ne suis l'homme que d'une personne et ma femme ne vous le pardonnerait pas.</li>
+            </ul>
+            <div class="finparaph">
+            <img src="para2.png" alt="logo de dés à 20 faces">
+            </div>
+        </div>
+        <div class="formcontact coin bkc4">
+        <form  action="#" method="POST">
+            <fieldset class="bkc4 coin">
+                <legend>Coordonées Personelles</legend>
+                <input class="med" type="text" id="nom" placeholder="Nom">
+                <input class="med" type="text" id="prenom" placeholder="Prénom"><br>
+                <input class="majmax" type="text" id="mail" placeholder="Email">
+            </fieldset>
+            <fieldset class="bkc4 coin">
+                <legend>Type de message</legend>
+                <input class="min" type="checkbox" value="professionel" id="professionel"> professionel
+                <input class="min" type="checkbox" value="personel" id="personel"> personnel
+            </fieldset >
+            <fieldset class="bkc4 coin">
+                <legend> Votre message </legend>
+                <textarea class="coin" id="message" placeholder="Entrez votre message ici"></textarea>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer> 
+        <p>By Gedezalu</p>
+    </footer>
+</body>
+</html>

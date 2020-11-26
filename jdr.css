@@ -1,0 +1,861 @@
+
+.sm-col-1 { width: 8.33%; }
+.sm-col-2 { width: 16.66%; }
+.sm-col-3 { width: 25%;}
+.sm-col-4 { width: 33.33%;}
+.sm-col-5 { width: 41.66%;}
+.sm-col-6 { width: 50%;}
+.sm-col-7 { width: 58.33%;}
+.sm-col-8 { width: 66.66%;}
+.sm-col-9 { width: 75%;}
+.sm-col-10 { width: 83.33%;}
+.sm-col-11 { width: 91.66%;}
+.sm-col-12 { width: 100%; }
+/* Reset CSS */
+/*test*/
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* fin du reset */
+body {
+    background-color: #F9EAC3;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+/* class mise en page rapide*/
+.flexb
+{display: flex;}
+.gras
+{font-weight: bold;}
+.ita
+{font-style: italic;}
+.red
+{ color:#631120 ;}
+.bkc
+{background-color: #F9EAC3;}
+.bkc2
+{background-color: #fff;}
+.bkc3
+{border:2px solid #000}
+.bkc4
+{box-shadow: 1px 1px 12px #bbb;}
+.coin
+{border-radius:15px;}
+.maj
+{width:80%;}
+.majmax
+{width:90%;}
+.med
+{width: 45%;}
+.menu-principal
+{width:15%;}
+/* fin class mise en page rapide */
+
+/* Parametrage du header + bouton de navigation */
+.bandeau
+{
+    margin: 0;
+    height: 10em;
+    color: #fff;
+    background-color:#631120 ;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 1px 12px #555;
+}
+.poslog
+{
+    overflow: hidden;
+}
+.logosite
+{
+   object-fit: contain;
+   margin: 1%;
+   width:100%;
+}
+/* Menu déroulant */
+.menucheck
+{
+    display: block;
+    z-index: 20;
+    opacity: 0;
+}
+
+.menucheck:checked  ~ .menu-principal
+{
+    transform: translateX(0%);
+    transition-duration: 0.5s;
+}
+.bouton-nav
+{ 
+    display: block;  
+    position: absolute;
+    border: 2px solid#F9EAC3;
+    border-radius: 5px;
+    background-color: black;
+    padding:6px 6px 6px 6px ;
+    top:2em;
+    right: 2em;
+    background-color: none ;
+    z-index: 20;
+    cursor: pointer;
+}
+.barre
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.barre:last-child
+{
+    margin-bottom: 3px;
+}
+.barre
+{
+    width:3em;
+    height: 6px;
+    background:#F9EAC3;
+    margin-top: 3px;
+}
+
+.menu-principal
+{
+    position: fixed;
+    display: block;
+    right:0 ;
+    top: 0;
+    padding: 0 1em;
+    margin-right: -10px;
+    background: rgb(0, 0, 0);
+    width: 9em;
+    height:100%;
+    transform: translateX(100%);
+}
+.menu-principal ul
+{
+    color: #F9EAC3;
+    right:1em;
+    left:1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    list-style-type: none;
+    border-top: 2px solid#F9EAC3;
+    border-bottom: 2px solid #F9EAC3;
+}
+.menu-principal ul :nth-child(2), .menu-principal ul :nth-child(6)
+{
+    border: 2px solid #F9EAC3;
+    padding:0.5em;
+    padding:0.5em;
+    border-radius: 5px;
+}
+.menu-principal ul li
+{
+    color:  #631120;
+    margin: 1em 0;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menu-principal ul li a
+{
+    color:#F9EAC3;
+    box-shadow: 0px 0px 0px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 100;
+    text-indent:none;
+    letter-spacing: 0.050em;
+}
+.menu-principal ul li a:hover
+{
+    color: #631120;
+}
+/* fin config menu principal + Navigation*/
+
+/* Titre de la page*/
+h2
+{
+    font-size: 2em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #631120;
+    color: #F9EAC3;
+    margin: 2%;
+    text-align: center;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+/* Fin titre */
+/* organisation de la page*/
+
+
+section
+{
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:3em;
+    margin-bottom:3em;
+    flex-direction: column;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 12px #F9EAC3;
+}
+section p
+{
+    margin: 1em;
+    text-align:left;
+    text-indent:1em;
+
+}
+section h3
+{
+    font-size: 1.5em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #631120;
+    color: #F9EAC3;
+   text-align: center;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+section ul
+{
+    list-style-type:circle;
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+section ul li
+{
+  margin-bottom: 1em;;
+}
+.finparaph
+{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width:10%;
+}
+.finparaph img
+{
+    width:100%;
+}
+footer
+{
+    display: block;
+    background-color: #631120 ;
+    margin-left:0;
+    margin-right:0;
+    width: 100%;
+    height: 3em;
+}
+footer p
+{
+    color:  #F9EAC3;
+    font-style: italic;
+    padding-top: 1em;
+    padding-right:1em;
+    padding-bottom:auto;
+    text-align: right;
+}
+
+/* Mise en page cv */
+.mon-cv
+{
+    flex-direction: column;
+}
+.presentation
+{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.nomprenom
+{
+    border: 1px solid black;
+    border-right: 0;
+    border-radius: 15px 0 0 15px;
+    padding: 5px 0;
+    background-color: #eee;
+    bottom: 0;
+    top: 0;
+    margin:auto;
+    margin-right: 0;
+    margin-left:0
+}
+.nomprenom table, .info table
+{
+    margin-left: auto;
+    margin-right:auto;   
+}
+.texte
+{
+    border:1px ;
+    border-radius: 5px;
+    background-color: #fff;
+    padding:0.2em;
+}
+.soustexte
+{
+    font-size: 0.8em;
+    font-style: italic;
+    color:#bbb
+}
+.info table td, .info table th
+{
+    width: 23%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.info
+{
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.lien:link, .lien:visited
+{
+    color: black;
+}
+.lien:hover
+{
+    color: #631120;
+}
+.tablepc
+{
+    display:none
+}
+.corps
+{
+    flex-direction: column ;
+}
+.skills
+{
+    flex-direction: column;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.skills2
+{
+    flex-direction: column;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.colstat
+{
+    flex-wrap: wrap;
+    border:15 solid pink;
+    padding-right: 0.5em;
+    padding-left:0.5em;
+}
+.statper
+{
+    width: 31%;
+    margin-right:1%;
+    flex-direction: column ;
+}
+
+.myscorestat
+{
+    width:100%;
+    border:1px solid black;
+    background-color:#fff;
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2px 0px 0px 0px; 
+}
+.myscorestat th, .myscorestat td
+{
+    width:100%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.myscorestat th
+{
+    font-weight: normal;
+}
+.myscorestat td
+{
+    font-size: 3em;
+}
+.modif
+{
+    text-align: center;
+    padding-bottom: 0.2em;
+    background-color: #fff;
+    width: 50%;
+    height: 1em;
+    border: 1px inset black;
+    border-radius:30px;
+    margin-top:-1.7em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.colstat2
+{
+    flex-direction: column;
+    padding-top:1em;
+}
+.h3up
+{
+    display:none
+}
+.tabcomp
+{
+    flex-direction: column;
+    border: 2px solid #000;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    padding:1em;
+    background-color: #fff;
+}
+.tabcomp h3,.skills2 h3
+{
+    color: #000;
+    background-color:transparent;
+    border: 0px;
+    text-shadow: none;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+.skills2 h3
+{
+    color: #000;
+    border: 0px;
+    text-shadow: none;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+.tabcomp td, .tabcomp th
+{
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+}
+.td1
+{
+    width:32%;
+    border-bottom: 1px solid #bbb;
+    padding-right: 2em;
+    color: #bbb;
+font-style:italic
+}
+.td2
+{
+    width:65%;
+    padding-left:2em;
+   
+}
+.td3
+{
+    width: 3%;
+    padding-right:2em;
+}
+
+.ecu 
+{
+    justify-content: center;
+}
+.boxinf
+{
+    flex-direction: column;
+    width: 100%
+}
+
+.boxprinc
+{
+
+    width:90%;
+    text-align: center;
+    height: 4em;
+    border:2px solid black;
+    border-radius: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0.5em;
+    padding-top:2em;
+}
+.boxsec
+{
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+    width: 50%;
+    height: 2em;
+    border: 1px inset black;
+    border-radius:30px;
+    padding-top: 1em;
+    margin-top:-1.5em;
+    margin-bottom: 1em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.diplome
+{
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.diplome th, .diplome td
+{
+    padding: 0;
+    text-align: left;
+    border-bottom: 1px solid #bbb;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    line-height: 1.5em;
+}
+.poste
+{
+    background-color: #fff;
+    width:98%;
+    margin-left:1%;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    padding:0.5em;
+    border: 2px solid #000;
+}
+.poste td, .poste th
+{
+   text-align: left;
+}
+.texte2
+{
+    border:1px ;
+    border-radius: 5px;
+    background-color: #eee;
+    padding:0.2em;
+}
+/* fin mise en page cv*/
+/* Mise en page me contacter*/
+.contact
+{
+    border:2px solid transparent;
+    padding:1em;
+    margin:1em;
+}
+.formcontact
+{
+    border: 2px solid black;
+    margin:1em;
+    padding-top:2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.formcontact fieldset
+{
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+.formcontact legend
+{
+    margin:1em;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #631120;
+    padding-left: 15vw;
+    padding-right:15vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-weight: bold;
+    color: #F9EAC3;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.formcontact input
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top:0.2em;
+    padding-bottom:0.2em ;
+    margin:1em;
+    margin-right: auto;
+    text-indent:1em;
+}
+.formcontact textarea
+{
+    border: 1px solid black;
+    width:95%;
+    height: 10em;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2em;
+    text-indent:1em;
+}
+
+
+@media screen and (min-width:720px) {
+
+    body 
+    {
+        background-color: #FBF2DB;
+        color: #000;
+    }
+
+    .md-col-1 { width: 8.33%; }
+    .md-col-2 { width: 16.66%; }
+    .md-col-3 { width: 25%;}
+    .md-col-4 { width: 33.33%;}
+    .md-col-5 { width: 41.66%;}
+    .md-col-6 { width: 50%;}
+    .md-col-7 { width: 58.33%;}
+    .md-col-8 { width: 66.66%;}
+    .md-col-9 { width: 75%;}
+    .md-col-10 { width: 83.33%;}
+    .md-col-11 { width: 91.66%;}
+    .md-col-12 { width: 100%; }
+
+    .bandeau
+    {
+        justify-content: center;
+    }
+    .bouton-nav, .menucheck, .barre
+    {
+        display: none;
+    }
+    .finparaph
+    {
+        width:5%;
+    }
+    .menu-principal
+    {
+        position:initial;
+        display: flex;
+        justify-content: center; /* Pourquoi space-between ne centre pas */
+        padding: 0;
+        background: rgb(0, 0, 0);
+        width:100%;
+        transform: translateX(0%);      
+    }
+    .menu-principal ul
+    {
+        color: white;
+        position: initial;
+        top: 0;
+        margin: 0.5em;
+        padding: 0;
+        transform: none;
+        -webkit-transform: none;
+        list-style-type: none;
+        border-top: none;
+        border-bottom:none;
+    }
+    .menu-principal ul :nth-child(2), .menu-principal ul :nth-child(6) /* Pourquoi first-child change toute les li? j'ai été obligé de rajouter une li vide */
+    {
+        display: none
+    }
+    .menu-principal ul li
+    {
+        display: inline-block;
+        margin:0;
+    }
+    .menu-principal ul li a
+    {
+        display: inline-block;
+        border: 1px solid#F9EAC3;
+        padding: 0.2em;
+        margin:0;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .menu-principal ul li a:hover
+    {
+       border-bottom:3px solid #631120 ;
+       color: #F9EAC3;
+    }
+    .smart
+    {
+        display:none
+    }
+    .skills
+    {
+        width:100%;
+    }
+    .colstat
+    {
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .statper
+    {
+        width:100%;
+    }
+     .h3up
+    {
+        display: block;
+    }
+     .h3down
+    {
+        display:none;
+    }
+     .diplome
+    {
+        flex-direction: column;
+        justify-content: left;
+    }
+     .nomprenomsc
+    {
+        padding-left: 2.5em;
+        padding-right:2.5em;
+    }
+}
+@media screen and (min-width:1200px) {
+
+    body 
+    {
+        background-color:#FBF2DB;
+        color:black;
+    }
+    section
+    {
+        background-color:#fff ;
+    }
+    
+
+   
+    .lg-col-1 { width: 8.33%; }
+    .lg-col-2 { width: 16.66%; }
+    .lg-col-3 { width: 25%;}
+    .lg-col-4 { width: 33.33%;}
+    .lg-col-5 { width: 41.66%;}
+    .lg-col-6 { width: 50%;}
+    .lg-col-7 { width: 58.33%;}
+    .lg-col-8 { width: 66.66%;}
+    .lg-col-9 { width: 75%;}
+    .lg-col-10 { width: 83.33%;}
+    .lg-col-11 { width: 91.66%;}
+    .lg-col-12 { width: 100%; }
+
+    .corps
+    {
+        flex-direction: row;
+    }
+    .skills
+    {
+        flex-direction: row;
+        margin-left:1em;
+        margin-right: 0em;
+        padding-right:1em;
+        
+    }
+    .skills2
+    {
+        flex-direction: column;
+        justify-content: stretch;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .finparaph
+    {
+        
+        width:3%;
+    }
+    .colstat
+    { 
+       flex-direction:column ;
+        flex-wrap: nowrap;
+        width:22%;
+        height: 50em;
+        margin-left: 0;
+    }
+    .colstat2
+    {
+        align-content: stretch;
+        width:72%;
+    }
+    .statper
+    {
+        height: 30%;
+    }
+    .myscorestat th
+    {
+        font-size:0.5em;
+    }
+    .tabcomp
+    {
+        height: 45%;
+        margin-bottom: 2em;
+        margin-top: 0em;
+        padding:0em;
+        padding-bottom: 2em;
+        padding-left: 0.5em;
+    }
+    .tabcomp h3
+    {
+        font-size: 1.2em;
+        background-color: transparent;
+        text-shadow: none;
+        padding: 0;
+    }
+    .tabcomp td, .tabcomp th
+    {
+        font-size: 0.6em;
+        padding-bottom:1.5em;
+    }
+    .td1
+    {
+        padding-right:0;
+        margin-right:0;
+    }
+    .ecu
+    {
+        margin-top: 2em;
+        flex-direction: row;
+        height:15%;
+    }
+    .diplome
+    {
+        flex-direction: column;
+        height: 85%;   
+    }
+    .nomprenomsc
+    {
+        padding-left: 5em;
+        padding-right:5em;
+    }
+}
