@@ -13,6 +13,7 @@ if(isset($_GET["page"])){
     break;
         case "page5":  $pageAInclure = "page5.php";
     break;
+    default : $pageAInclure = "page1.php";
     }
 }else {
     $pageAInclure = "page1.php";
