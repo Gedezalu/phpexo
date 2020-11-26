@@ -1,5 +1,23 @@
 <?php
-var_dump($_GET)
+var_dump($_GET);
+if(isset($_GET["page"])){
+    $pageAInclure = $_GET["page"].".php"; // page1.php ...
+    switch($_GET["page"]){
+        case "page1":  $pageAInclure = "page1.php";
+    break;
+        case "page2":  $pageAInclure = "page2.php";
+    break;
+    case "page3":  $pageAInclure = "page3.php";
+    break;
+        case "page4":  $pageAInclure = "page4.php";
+    break;
+        case "page5":  $pageAInclure = "page5.php";
+    break;
+    }
+}else {
+    $pageAInclure = "page1.php";
+}
+
 ?>
 
 
@@ -38,6 +56,7 @@ var_dump($_GET)
 
 
 <section class="flexb mon-cv sm-col-11 lg-col-9 coin ">
+<?php require $pageAInclure ?>;
 </section>
 
 
