@@ -1,8 +1,9 @@
 <?php
 require_once "Article.php";
-$len = $articles.length;
+/* Test non concluant
+ $len = $articles.length;
 
-for ($i = 0, i<$len , i++)
+for ($i=0, i<$len , i++)
 { 
 
    echo <h3> <?php require $articles[i].titre ?> </h3>;
@@ -12,8 +13,7 @@ for ($i = 0, i<$len , i++)
    echo <div class="finparaph">;
    echo <img src="para2.png" alt="logo de dés à 20 faces">;
    echo  </div>;
-
-}
+} */
 
 ?>
 
