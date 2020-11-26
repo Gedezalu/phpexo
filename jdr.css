@@ -202,7 +202,27 @@ h2
 /* Fin titre */
 /* organisation de la page*/
 
-
+.Cadreactu
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-style: italic ;
+    padding : 1em;
+    margin: 2em;
+    background-color: rgb(248, 246, 246);
+}
+.lienarticle
+{
+    border-radius: 15px;
+    background-color: #631120;
+    padding: 1em;
+    color: #F9EAC3;
+    width: 40%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
 section
 {
     display: flex;
@@ -693,6 +713,18 @@ font-style:italic
         display: inline-block;
         margin:0;
     }
+    .lienarticle
+{
+    border-radius: 15px;
+    background-color: #631120;
+    padding: 1em;
+    color: #F9EAC3;
+    width: 20%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
     .menu-principal ul li a
     {
         display: inline-block;
@@ -756,6 +788,7 @@ font-style:italic
         background-color:#fff ;
     }
     
+    
 
    
     .lg-col-1 { width: 8.33%; }
@@ -790,6 +823,7 @@ font-style:italic
         margin-left: 1em;
         margin-right: 1em;
     }
+    
     .finparaph
     {
         
@@ -858,4 +892,16 @@ font-style:italic
         padding-left: 5em;
         padding-right:5em;
     }
+    .lienarticle
+{
+    border-radius: 40px;
+    background-color: #631120;
+    padding: 1em;
+    color: #F9EAC3;
+    width: 10%;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
 }
