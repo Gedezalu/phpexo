@@ -5,6 +5,12 @@
         <div class="finparaph">
             <img src="para2.png" alt="logo de dés à 20 faces">
             </div>
+            <h3> Présentation : Adventures in Austerion </h3>
+        <img src="Actu4.jpeg" alt="illustartion article">
+        <p>Les Ribauds sont envoyés dans une vieille tombe scellée où, jadis, se seraient tenues des réunions secrètes entre sorciers et vampires, et même sorciers-vampires (ou vampires-sorciers, selon la longueur des canines). Pour cette exploration périlleuse, Jacquel le Rat des tunnels est accompagné de Rokia, un Fléau des arcanes capable d’user de magie comme de discrétion, de Souleyman, un Conciliateur impérieux, un négociateur qu’il ne faut pas contrarier, de Mo’omma, une Lutteuse kizarienne, dont la puissance se dispute à l’agilité, et d’Izbàn, un Maraudeur des abîmes à qui le combat au fond d’un Donjon ne fait pas peur. Le groupe s’avance vers son objectif et les premiers ennuis commencent, à vous maintenant de continuer l’histoire ...<a href="https://www.trictrac.net/actus/adventures-in-austerion-1">"Lire la suite"</a> </p>
+        <div class="finparaph">
+            <img src="para2.png" alt="logo de dés à 20 faces">
+            </div>
             <h3>Critique : Club </h3>
             <img src="Actu2.jpg" alt="illustartion article">
         <p>Dans le jeu de rôle le CLUB chaque joueur incarne un monstre de son choix parmi un large éventail de créatures de la littérature classique d’horreur ou des contes modernes. Tous sont membres du CLUB, un groupement d’agents exceptionnels luttant contre les forces du mal tout autour du globe, de nos jours...<a href="http://www.unificationfrance.com/article64463.html">"Lire la suite"</a></p>
