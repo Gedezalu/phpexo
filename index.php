@@ -1,13 +1,5 @@
 <?php
-
-    $article1 = ["nom" => "Donjon et Dragons", "article" => "Du médiéval fantasy en pagaille"];
-    $article2 = ["nom" => "l'appel de Chtullu", "article" => "Tiens un tentacule"];
-    $article3 = ["nom" => "Warhammer", "article" => "Violence et violence"];
-    $tabarticle = ["article1", "article2", "article3"];
-
-    var_dump($tabarticle);
-    
-
+var_dump($_GET)
 ?>
 
 
@@ -15,89 +7,44 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>TP PHP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTVVMQ</title>
+    <link rel="stylesheet" href="jdr.css">
+    <link rel="icon" type="image/png" href="coucou2.png" />
 </head>
 <body>
+    <header class="bandeau flexb sm-col-12">
+        <div class="flexb poslog sm-col-12 md-col-3 lg-col-3 ">
+        <img class="logosite" src="coucou2.png" alt="logo du site bouclier et dé 20">
+        </div>
+    </header>
+<!-- Menu principal-->
+<div class="container">
+<input id="menu-checkbox" type="checkbox" class="menucheck sm-col-5">
+<label for="menu-checkbox" class="bouton-nav "><span class="barre"> </span> <span class="barre"> </span> <span class="barre"> </span></label>
+<nav id="menu-principal" class="menu-principal md2-col-12 " aria-label="Main menu">
+    <ul>
+        <li></li>
+        <li>Le Jeu de Rôle</li>
+        <li><a href="index.php?page=page1"> Le JDR qu'est ce que c'est?</a></li>
+        <li><a href="index.php?page=page2"> Projet 1</a></li>
+        <li><a href="index.php?page=page3">Projet 2</a></li>
+        <li>Qui suis-je?</li>
+        <li><a href="index.php?page=page4">Mon CV</a></li>
+        <li><a href="index.php?page=page5">Me contacter</a></li>
+    </ul>
+</nav> 
+</div>
 
-        <header>
 
-        <h1>Les Grands Noms du JDR</h1>
-
-            <img src="JDR1.jpg" alt="image header" id="img_header">
-
-
-        </header>
-
-        <section>
-
-
-            <div id="scroll_vers_le_haut">   <!-- div pour faire une flèche qui scrolle vers le haut -->
-                <a href="#top"><img src="images/fleche_haut2.png" alt="Retourner en haut" /></a>
-            </div>                                      <!---->
-
-            <p>Une liste de lien revenant sur des grands noms du JDR</p>
-
-            <div class="li_haut">
-                <ul>
-                    <li><a href="https://fr.wikipedia.org/wiki/Donjons_et_Dragons">Donjon et Dragons</a></li>
-                    <li><a href="https://fr.wikipedia.org/wiki/L%27Appel_de_Cthulhu_(jeu_de_r%C3%B4le)">L'Appel de Cthulhu</a></li>
-                    <li><a href="https://fr.wikipedia.org/wiki/Warhammer,_le_jeu_de_r%C3%B4le_fantastique">Warhammer</a></li>
-                </ul>
-                        
-            </div>
-            <span></span>
-
-            <div class="conteneur">
-
-                <div id="Donjonsdragons">
-
-                    <h2>Donjons et dragons</h2>
-
-                    <img src="JDR2.jpg" alt="">
-
-                    <div class="bouton">
-                        <p><a href="https://fr.wikipedia.org/wiki/Donjons_et_Dragons">Lire l'article</a></p>
-                    </div>
-                
-                </div>
+<section class="flexb mon-cv sm-col-11 lg-col-9 coin ">
+</section>
 
 
 
-                <div id="futura">
 
-                    <h2>L'Appel de Cthulhu</h2>
-
-                    <img src="JDR3.jpg" alt="">
-
-                    <div class="bouton">
-                        <p><a href="https://fr.wikipedia.org/wiki/L%27Appel_de_Cthulhu_(jeu_de_r%C3%B4le)">Lire l'article</a></p>
-                    </div>
-
-                </div>
-
-
-
-                <div id="pwa">
-
-                    <h2>Warhammer</h2>
-
-                    <img src="JDR4" alt="">
-
-                    <div class="bouton">
-                        <p><a href="https://fr.wikipedia.org/wiki/Warhammer,_le_jeu_de_r%C3%B4le_fantastique">Lire l'article</a></p>
-                    </div>
-
-                    
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-    
+<footer> 
+        <p>By Gedezalu</p>
+    </footer>
 </body>
 </html>
