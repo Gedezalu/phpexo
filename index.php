@@ -50,7 +50,7 @@ if(isset($_GET["page"])){
         <li></li>
         <li>Le Jeu de Rôle</li>
         <li><a href="index.php?page=page1"> Le JDR qu'est ce que c'est?</a></li>
-        <li><a href="index.php?page=page2"> Projet 1</a></li>
+        <li><a href="index.php?page=page2"> Actu JDR</a></li>
         <li><a href="index.php?page=page3">Projet 2</a></li>
         <li>Qui suis-je?</li>
         <li><a href="index.php?page=page4">Mon CV</a></li>
