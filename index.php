@@ -1,5 +1,9 @@
 <?php
-var_dump($_GET);
+
+// Nous permet de regarder sur qu'il y a dans notre tableau $_get, à utiliser en debug
+//var_dump($_GET);
+
+
 if(isset($_GET["page"])){
     $pageAInclure = $_GET["page"].".php"; // page1.php ...
     switch($_GET["page"]){
@@ -57,7 +61,7 @@ if(isset($_GET["page"])){
 
 
 <section class="flexb mon-cv sm-col-11 lg-col-9 coin ">
-<?php require $pageAInclure ?>;
+<?php require "html/".$pageAInclure ?>;
 </section>
 
 
