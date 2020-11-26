@@ -1,0 +1,30 @@
+<h2> Projet 1</h2>
+        <h3> Étape 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, laboriosam. Reiciendis eius illo incidunt quia dolorum officiis, voluptate consequatur blanditiis dolorem nisi ut, corrupti architecto aspernatur alias natus perferendis quos?</p>
+        <div class="finparaph">
+            <img src="para2.png" alt="logo de dés à 20 faces">
+            </div>
+            <h3>Étape 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim nostrum rerum inventore quo, quisquam vel non aliquid laudantium magnam, modi ullam, illum eveniet error ex voluptate officia architecto porro.
+        Voluptatibus, harum reprehenderit dolore deleniti quos necessitatibus dolores, dolorum beatae dolorem facere architecto aliquid iure. Facere quam, ullam, laboriosam itaque, placeat tenetur porro nobis reprehenderit suscipit esse voluptatibus repellat doloribus?
+        Modi nulla corporis dolor nam labore! Iure optio dolorem, quia unde nemo beatae praesentium odio veniam eos sapiente quisquam at veritatis aut voluptates fuga sequi cum non obcaecati molestiae et.
+        Voluptate veritatis sed praesentium! Dolorum cupiditate iusto dignissimos facere cum, praesentium libero repellat tempore molestias expedita reiciendis modi, officiis nulla id exercitationem vitae deleniti veritatis error amet enim sit architecto!
+        Est voluptate et dolorum iure, culpa dicta id, alias hic veritatis incidunt tenetur optio blanditiis maiores rerum fuga qui inventore cum esse ut exercitationem libero officia odit labore ex? Eos!
+        Est inventore eius neque vel. Qui, quo placeat voluptas dolorem tempore quia, nemo in ex sequi totam dolor iste sint quod modi dolores rem suscipit facilis, est veritatis aliquam repellendus.
+        Tempore tempora dolor facere qui quisquam placeat commodi, culpa doloribus consequuntur illum expedita similique non adipisci repudiandae ut, at laborum? Illo nam, dolore quo accusamus corporis voluptatum pariatur veniam eum.
+        Quod numquam et, tempore itaque optio recusandae omnis. Distinctio corrupti illum, tenetur accusamus fugit maxime ipsam, perspiciatis at ipsa eligendi error sunt placeat laboriosam illo dignissimos non nulla, perferendis tempore?
+        Laborum, repudiandae molestias deserunt enim rem commodi sit a atque consequuntur, eaque non ipsa deleniti eum nisi officia hic obcaecati sequi quis quas quaerat in? Nobis voluptatibus sint dolores sed.
+        Laudantium illum placeat possimus rerum, esse temporibus dolorem sunt aut eligendi maiores vitae, dicta iure deserunt! Quisquam minus esse, ex odit nam cum temporibus nostrum. Quae iure maiores id dignissimos.
+        Enim atque reprehenderit earum dicta, laborum totam quis voluptatibus, ipsa voluptatem cumque illum quaerat libero culpa consectetur quae quia ex. Obcaecati expedita reiciendis aut est, error doloremque facere cum aliquam.
+        Cum minima sapiente aliquid dolore molestias, explicabo aut officia ut eos cumque consectetur maiores corporis amet fuga nulla magnam modi, excepturi sunt reiciendis magni, saepe harum id veritatis tempore! Fugiat.
+        Quod ad quaerat eligendi fugiat iste ex. Voluptatum quia maxime numquam quas quam omnis sed nisi molestiae, vel accusantium iusto, fugit, consequuntur error delectus a praesentium corporis unde tempora repudiandae!
+        Autem dolor, sapiente vel odit iusto dolores similique placeat distinctio commodi sequi, possimus consequuntur facere est deleniti! Consequatur quis ipsa molestias libero inventore reprehenderit ullam, unde esse alias earum expedita.
+        Enim delectus temporibus nam! Eveniet odio amet quo. Magnam commodi numquam distinctio ipsum similique tenetur explicabo illum culpa. Laborum sequi pariatur adipisci esse laboriosam natus accusamus eius? Dolore, necessitatibus praesentium!
+        Enim debitis repellendus vel, natus numquam cupiditate possimus illo dicta, rem distinctio ipsum ipsa, doloremque pariatur consectetur libero? Perspiciatis omnis quidem, cum autem nostrum quisquam laudantium fugit eligendi! Placeat, delectus.
+        Odit, distinctio adipisci? Magnam deleniti fugiat enim temporibus nulla eveniet a, assumenda provident ullam. Est nesciunt quisquam eligendi et possimus modi laborum quasi, facere consectetur distinctio exercitationem odit blanditiis labore?
+        Eligendi molestiae dolorem assumenda asperiores rem possimus harum voluptatibus doloribus laudantium, aut illum blanditiis, ipsa id ipsam repudiandae aperiam odit pariatur nostrum officia odio magnam debitis. Natus ducimus tenetur tempore?
+        Harum, iste fuga. Illo facere at consequatur. Dolorem, animi! Minus voluptatum eum molestiae ea! Harum perspiciatis fuga, minima optio deserunt iste magnam neque, suscipit maxime velit, minus voluptatem corrupti? Minus!
+        Excepturi porro officiis odio repudiandae veritatis temporibus vitae fugit labore ullam? Cumque nemo vel unde blanditiis sunt odio consequuntur, natus culpa dolore voluptatibus non quod, dolorem adipisci id, delectus perferendis?</p>
+        <div class="finparaph">
+            <img src="para2.png" alt="logo de dés à 20 faces">
+            </div>
