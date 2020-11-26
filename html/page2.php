@@ -1,7 +1,23 @@
 <?php
 require_once "Article.php";
+$len = $articles.length;
+
+for ($i = 0, i<$len , i++)
+{ 
+
+   echo <h3> <?php require $articles[i].titre ?> </h3>;
+   echo <p class="Cadreactu"><?php require $articles[i].article ?>;
+   echo <a href ="<?php require $articles[i].lien ?>" class="lienarticle">"Lire la suite"</a> ;
+   echo <img src="<?php require $articles[i].image ?>";
+   echo <div class="finparaph">;
+   echo <img src="para2.png" alt="logo de dés à 20 faces">;
+   echo  </div>;
+
+}
+
 ?>
-h2> Les Dernières News du JDR</h2>
+
+<h2> Les Dernières News du JDR</h2>
         <h3> Un Jeu de rôle dans l'univers de Batman en préparation</h3>
             
                 <img src="Actu1.jpg" alt="illustration article">
