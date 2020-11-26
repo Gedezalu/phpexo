@@ -1,4 +1,7 @@
-<h2> Les Dernières News du JDR</h2>
+<?php
+require_once "Article.php";
+?>
+h2> Les Dernières News du JDR</h2>
         <h3> Un Jeu de rôle dans l'univers de Batman en préparation</h3>
             
                 <img src="Actu1.jpg" alt="illustration article">
